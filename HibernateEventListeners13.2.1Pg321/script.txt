@@ -1,0 +1,1 @@
+create table users(id int auto_increment primary key, street varchar(100),city varchar(100),pin_code varchar(100),office_street varchar(100),office_city varchar(100),office_pin_code varchar(100));

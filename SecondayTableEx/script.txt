@@ -1,0 +1,2 @@
+create table billing_details(id int auto_increment primary key, bd_type varchar(5), owner varchar(30), account varchar(30), bank_name varchar(50), swift varchar(50));
+create table credit_card(credit_card int primary key references billing_details(id), card_number varchar(50), exp_month varchar(10), exp_year varchar(10));

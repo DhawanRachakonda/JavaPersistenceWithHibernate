@@ -1,0 +1,15 @@
+create table images (
+        Item_id bigint not null,
+        file_path varchar(255),
+        ordr_id integer not null,
+        primary key (Item_id, ordr_id)
+    )
+create table Item (
+        id bigint not null auto_increment,
+        image_desc varchar(255),
+        primary key (id)
+    )
+alter table images 
+        add constraint FKnu8cfujbubjdtcxve3pmwctmu 
+        foreign key (Item_id) 
+        references Item (id)

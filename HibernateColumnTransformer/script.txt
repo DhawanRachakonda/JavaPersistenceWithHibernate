@@ -1,0 +1,4 @@
+create table Message_Sequence(next_val integer)
+insert into message_sequence values(400)
+
+create table state_enum(id int auto_increment primary key, name varchar(255),create_date timestamp,updated_at timestamp,dup_id int,text_type varchar(200))

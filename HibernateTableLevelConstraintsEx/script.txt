@@ -1,0 +1,2 @@
+create table Message_Sequence(next_val integer)
+insert into message_sequence values(400)

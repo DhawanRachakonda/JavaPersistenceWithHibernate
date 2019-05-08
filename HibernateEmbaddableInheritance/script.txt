@@ -1,0 +1,12 @@
+create table Item (
+        id bigint not null auto_increment,
+        depth decimal(19,2),
+        height decimal(19,2),
+        width decimal(19,2),
+        dimension_name varchar(255),
+        dimension_symbol varchar(255),
+        weight decimal(19,2),
+        weight_name varchar(255),
+        weight_symbol varchar(255),
+        primary key (id)
+    )

@@ -1,0 +1,1 @@
+create table item(id int auto_increment primary key, item_name varchar(50),currency_code varchar(4), balance double)
